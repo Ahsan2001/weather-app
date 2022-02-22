@@ -10,8 +10,8 @@ const App = () => {
 
   // useEffect( () => {
   //     const fetchApi = async () => {
-  //       const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=a2e619c283a5f074b6b6c01191c925e2&units=metric`;
-  //       const response = await fetch(url);
+  //       const url = await fecth(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=a2e619c283a5f074b6b6c01191c925e2&units=metric`);
+  //       const response = await url.json();
   //       setWeather(response);
   //     }
   //     fetchApi();
